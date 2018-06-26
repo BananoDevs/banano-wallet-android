@@ -12,7 +12,7 @@ import java.util.Locale;
 
 public class NumberUtil {
     public static final BigInteger baseOfDivider = new BigInteger("10");
-    public static final BigInteger xrbDivider = baseOfDivider.pow(30);
+    public static final BigInteger xrbDivider = baseOfDivider.pow(29);
     public static final BigInteger nanoDivider = baseOfDivider.pow(24);
 
     /**
