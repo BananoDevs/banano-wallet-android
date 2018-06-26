@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- Intro Screens -->
+    <string name="intro_welcome_title">Bienvenido a Banano</string>
+    <string name="intro_welcome_new_wallet_cta">Crear una nueva Wallet</string>
+    <string name="intro_welcome_have_wallet_cta">Ingresar una Wallet seed</string>
+    <string name="intro_seed_title">Pega una Seed o escanea\nun código para empezar</string>
+    <string name="intro_seed_seed_label">Seed</string>
+    <string name="intro_seed_seed_hint">(Seed Address)</string>
+    <string name="intro_seed_confirm_cta">Confirmar Seed</string>
+    <string name="intro_new_wallet_title">Tu Seed de Banano Wallet</string>
+    <string name="intro_new_wallet_message">><![CDATA[<font color=\"#000034\">Su Banano Wallet Seed es un código único que permite el acceso a su Wallet en la red de Banano.<br><br>Es la única manera existente de recuperar su Wallet y acceder a los Banano que pudiera tener.</font><br><br><font color=\"#ee4b66\">Nosotros no tenemos acceso a esta Seed, y el usuario no podrá recuperar esta Seed o los fondos de la Wallet sin su correspondiente Wallet Seed.</font><br><br><font color=\"#000034\">Usted es el único responsable de almacenar la Wallet Seed en un lugar seguro y de una forma apropiada.</font> <font color=\"#ee4b66\">NUNCA COMPARTA SU WALLET SEED CON NADIE.</font>]]></string>
+    <string name="intro_new_wallet_confirm">Lo entiendo, continuar</string>
+    <string name="intro_new_wallet_seed_copied">Su Wallet Seed se puede pegar durante 2 minutos. Después, puedes acceder a ella en Configuración.\n\nPor favor, haga una copia de seguridad de su Seed en un lugar seguro como 1Password, LastPass, o imprímalo y guárdelo en un lugar seguro.</string>
+    <string name="intro_new_wallet_seed_done">Ok</string>
+    <string name="intro_new_wallet_seed_label">Toca para copiar</string>
+    <string name="intro_new_wallet_seed_copied_title">Wallet Seed copiada</string>
+    <string name="intro_new_wallet_continue_title">¡Bienvenido a Banano Wallet!</string>
+    <string name="intro_new_wallet_continue_message">Por favor, confirma que has guardado tu Wallet Seed correctamente y en un lugar seguro.</string>
+    <string name="intro_new_wallet_continue_positive">He guardado correctamente mi Wallet Seed</string>
+    <string name="intro_new_wallet_continue_negative">Atrás</string>
+    <string name="intro_legal_title">Términos y condiciones</string>
+    <string name="intro_legal_description">El uso de esta aplicación móvil "Banano Wallet" está sujeto a su aceptación de todos los términos y condiciones del Contrato de licencia de usuario final y las Políticas de privacidad vinculados a continuación (colectivamente, los "Términos y Condiciones"). Por favor toque los enlaces a continuación y lea los Términos y Condiciones cuidadosamente. Al marcar siguientes casillas y presionar “Aceptar,” usted reconoce que ha leído, comprende y acepta todos los Términos y Condiciones, que son acuerdos jurídicos vinculantes. Si no comprende o acepta algunos de los Términos y Condiciones, no tiene licencia o autorización para usar esta aplicación y debe eliminarla de su dispositivo.</string>
+    <string name="intro_legal_confirm">Acepto</string>
+    <string name="intro_legal_deny">No acepto</string>
+    <string name="intro_legal_checkbox_eula_label">Acuerdo de licencia de usuario final</string>
+    <string name="intro_legal_checkbox_pp_label">Política de Privacidad</string>
+    <string name="intro_legal_checkbox_eula_link">https://nanowalletcompany.com/android-eula</string>
+    <string name="intro_legal_checkbox_pp_link">https://nanowalletcompany.com/mobile-privacy-policy</string>
+    <string name="intro_legal_alert_title">Está apunto de salir</string>
+    <string name="intro_legal_alert_message">No aceptar conlleva el salir de la aplicación.</string>
+    <string name="intro_legal_alert_confirm_cta">Salir</string>
+    <string name="intro_legal_alert_cancel_cta">Cancelar</string>
+
+    <!-- Analytics Opt-In -->
+    <string name="analytics_optin_alert_title">Analítica Opt-In</string>
+    <string name="analytics_optin_alert_message">A Banano (\'nosotros\' o \'nosotros\') nos gustaría recopilar su ID de dispositivo, así como las métricas de uso y los informes de errores y fallos relacionados con su uso de esta aplicación móvil "Banano Wallet" (El \'Monedero\'), para ayudarnos a comprender cómo los usuarios usan la Wallet y dónde podrían ocurrir los errores en la wallet, y utilizar estos datos para ayudarnos a mantener, desarrollar y mejorar la Wallet y nuestros productos y servicios. \n\n No se recopilan datos sobre su nombre, información de contacto, fondos, tokens de Banano, Seeds de wallet o claves privadas a través de la wallet. Puede ver exactamente qué tipos de datos recopilamos a través de wallet en nuestra Política de Privacidad.\n\n ¿Está usted consciente de nuestra recopilación y uso de datos para estos fines? (Su consentimiento no es un requisito previo para usar la wallet y, si usted está consciente, tendrá derecho a retirar su consentimiento en cualquier momento tal como se describe en la Política de Privacidad.)</string>
+    <string name="analytics_optin_alert_confirm_cta">Consciente</string>
+    <string name="analytics_optin_alert_cancel_cta">No consciente</string>
+
+    <!-- Pin Screen -->
+    <string name="pin_create_title">Crea un código de acceso de 4 dígitos</string>
+    <string name="pin_confirm_title">Confirma tu código de acceso</string>
+    <string name="pin_enter_title">Ingresa tu código de acceso</string>
+    <string name="pin_confirm_error">Los códigos de acceso no coinciden</string>
+    <string name="pin_error">El código de acceso ingresado es inválido</string>
+
+    <!-- Home Screen -->
+    <string name="home_send_cta">Enviar</string>
+    <string name="home_receive_cta">Recibir</string>
+    <string name="error_message">Hubo un problema al conectar. Por favor, inténtelo de nuevo.</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Configuración</string>
+    <string name="settings_local_currency">Moneda local</string>
+    <string name="settings_show_seed">Ver mi Wallet Seed</string>
+    <string name="settings_show_new_seed">Ver mi nueva Wallet Seed</string>
+    <string name="settings_log_out">Salir</string>
+    <string name="settings_seed_alert_title">Esta es su Wallet Seed, tenga cuidado.</string>
+    <string name="settings_seed_alert_message">Toque el botón de abajo para copiar su Seed y pegar más tarde. La Seed se puede pegar durante 2 minutos y luego caducará.\n\nPor favor, haga una copia de seguridad de su Seed en un lugar seguro como 1Password, LastPass, o imprímalo y guárdelo en un lugar seguro.\n\nNunca comparta su Seed con nadie, nunca, bajo ninguna circunstancia.</string>
+    <string name="settings_seed_alert_confirm_cta">Ok</string>
+    <string name="settings_seed_alert_cancel_cta">Cancelar</string>
+    <string name="settings_logout_alert_title">¿Estás seguro que quieres cerrar sesión?</string>
+    <string name="settings_logout_alert_message">Cerrar su sesión eliminará su Seed, claves y todos los datos relacionados con Banano desde este dispositivo.</string>
+    <string name="settings_logout_alert_confirm_cta">Ok</string>
+    <string name="settings_logout_alert_cancel_cta">Cancelar</string>
+    <string name="settings_fingerprint_title">Copiar Wallet Seed</string>
+    <string name="settings_fingerprint_description">Verifique su identidad para ver su Wallet Seed.</string>
+    <string name="settings_fingerprint_success">Huella digital reconocida</string>
+    <string name="settings_disclaimer"><![CDATA[Lea <a href="https://nanowalletcompany.com/android-eula">Acuerdo de Licencia de usuario final</a> y <a href="https://nanowalletcompany.com/mobile-privacy-policy">Política de Privacidad</a>]]></string>
+
+    <!-- Receive Screen -->
+    <string name="receive_title">Recibir</string>
+    <string name="receive_instructions">Escanee el código QR\ninferior para recibir Banano</string>
+    <string name="receive_copy_cta">Copiar Address</string>
+    <string name="receive_address_label">Banano Address</string>
+    <string name="receive_copy_message">><![CDATA[<font color=\"#ffffff\">Tu Banano Address ha sido copiada.<br>¡Compártelo con un amigo para recibir Banano!</font>]]></string>
+    <string name="receive_copy_done">Hecho</string>
+    <string name="receive_share_title">Compartir vía…</string>
+    <string name="receive_card_label">$ban\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020banano.co.in</string>
+    <string name="receive_card_title">Banano</string>
+    <string name="receive_qrcode_description">Código QR</string>
+
+    <!-- Send Screen -->
+    <string name="send_title">Enviar a</string>
+    <string name="send_address_hint">(Introducir Address)</string>
+    <string name="send_send_cta">Enviar</string>
+    <string name="send_camera">Cámara</string>
+    <string name="send_localcurrency_hint">0.00</string>
+    <string name="send_amount_too_large_alert_title">Cantidad demasiado grande</string>
+    <string name="send_amount_too_large_alert_message">La cantidad que ha introducido es más grande que su balance de Banano.\n\nHemos introducido todo su balance para enviarlo.</string>
+    <string name="send_amount_too_large_alert_cta">Ok</string>
+    <string name="send_error_alert_title">Algo salió mal</string>
+    <string name="send_error_alert_message">Hemos detectado un problema y estamos trabajando para resolverlo. Por favor, inténtelo de nuevo en unos minutos.</string>
+    <string name="send_confirm_address_cta">Confirmar Address</string>
+    <string name="send_fingerprint_title">Enviar Banano</string>
+    <string name="send_pin_description">¿Enviar %s Banano?</string>
+    <string name="send_fingerprint_description">Confirmar huella digital para enviar %s Banano</string>
+    <string name="send_fingerprint_hint">Sensor táctil</string>
+    <string name="send_fingerprint_success">Huella digital reconocida</string>
+	
+	<!-- Scan Screen -->
+    <string name="scan_instruction_label">Escanear una Wallet Seed de Banano\no un código QR para\nimportar una Wallet ya existente</string>
+    <string name="scan_send_instruction_label">Escanear un código QR de\nun Banano Address</string>
+    <string name="scan_seed_error">Por favor, escanée una Seed válida.</string>
+
+    <!-- Webview Screen -->
+    <string name="webview_agreement_accept_cta">Acepto</string>
+
+    <!-- Seed Update -->
+    <string name="seed_update_alert_title">Crítico: Actualice su Wallet Seed</string>
+    <string name="seed_update_alert_message">En la versión 1.0, hemos descubierto un fallo crítico en la forma en que las Wallet Seeds son generadas. Esto hace que se requiera generar una Wallet Seed completamente nueva y transferir sus Banano a esa nueva Wallet, si su Wallet fue creada mediante Banano Wallet para Android.</string>
+    <string name="seed_update_alert_cancel_cta">Mi Wallet seed fue creada via otra wallet</string>
+    <string name="seed_update_alert_confirm_cta">Generar nueva Wallet Seed</string>
+	
+    <string name="seed_update_address_alert_title">Copie su nueva Wallet Seed y transfiera sus fondos</string>
+    <string name="seed_update_address_alert_message">En el futuro, usarás esta nueva Wallet Seed para acceder a sus Banano. Anótelo y guárdelo en un lugar seguro. Nota: las capturas de pantalla no funcionan en Banano Wallet\n\nSu nueva Wallet Seed es\n%1$s\n\nSu nuevo Address es\n%2$s</string>
+    <string name="seed_update_address_alert_neutral_cta">He copiado mi Wallet Seed</string>
+    <string name="seed_update_address_alert_confirm_cta">Transferir balance a una nueva Wallet</string>
+	
+    <string name="seed_update_verify_title">Por favor, verifique su nueva Wallet Seed escribiéndola a continuación:</string>
+    <string name="seed_update_verify_confirm">Transferir balance a una nueva Wallet</string>
+    <string name="seed_update_verify_error">La Seed no coincide. Por favor, inténtelo de nuevo.</string>
+    <string name="seed_update_verify_cancel">Cancelar</string>
+	
+    <string name="seed_update_send_completed_alert_title">Entrar en su nueva Wallet</string>
+    <string name="seed_update_send_completed_alert_message">Salir de esta Wallet y entrar a Banano Wallet para Android con la nueva Seed copiada recientemente.</string>
+    <string name="seed_update_send_completed_alert_confirm">Ok</string>
+	
+    <string name="seed_reminder_alert_title">Recordatorio de nueva Wallet Seed</string>
+    <string name="seed_reminder_alert_message">Debido a una actualización de seguridad, migró su Wallet Seed.\n\nSu nueva Wallet Seed es\n%1$s\n\nSu nueva dirección wallet es\n%2$s\n\nCierre sesión e inicie sesión con su nueva Wallet Seed.</string>
+    <string name="seed_reminder_alert_neutral_cta">Ok</string>
+    <string name="seed_reminder_alert_confirm_cta">Salir</string>
+</resources>
