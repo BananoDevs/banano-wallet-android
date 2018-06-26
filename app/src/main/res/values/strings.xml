@@ -82,7 +82,7 @@
     <string name="receive_copy_message"><![CDATA[<font color=\"#ffffff\">Your Banano Address has been copied.<br>Share it with a friend to receive Banano!</font>]]></string>
     <string name="receive_copy_done">Done</string>
     <string name="receive_share_title">Share via…</string>
-    <string name="receive_card_label">$nano\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020banano.co.in</string>
+    <string name="receive_card_label">$ban\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020banano.co.in</string>
     <string name="receive_card_title">Banano</string>
     <string name="receive_qrcode_description">QR Code</string>
 

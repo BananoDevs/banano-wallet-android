@@ -104,6 +104,7 @@ public class WebViewDialogFragment extends BaseDialogFragment {
         binding.webviewWebview.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
         binding.webviewWebview.getSettings().setLoadWithOverviewMode(true);
         binding.webviewWebview.getSettings().setUseWideViewPort(true);
+        binding.webviewWebview.getSettings().setJavaScriptEnabled(true);
 
         binding.webviewWebview.loadUrl(mUrl);
 

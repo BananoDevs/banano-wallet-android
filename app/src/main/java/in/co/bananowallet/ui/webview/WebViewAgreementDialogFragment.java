@@ -112,6 +112,7 @@ public class WebViewAgreementDialogFragment extends BaseDialogFragment {
         binding.webviewAgreementWebview.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
         binding.webviewAgreementWebview.getSettings().setLoadWithOverviewMode(true);
         binding.webviewAgreementWebview.getSettings().setUseWideViewPort(true);
+        binding.webviewAgreementWebview.getSettings().setJavaScriptEnabled(true);
 
         binding.webviewAgreementWebview.loadUrl(mUrl);
 

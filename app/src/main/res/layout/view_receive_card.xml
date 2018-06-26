@@ -32,7 +32,7 @@
             android:contentDescription="@string/app_name"
             app:layout_constraintStart_toEndOf="@+id/card_barcode"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_logo" />
+            app:srcCompat="@drawable/ic_logo_receivecard" />
 
         <TextView
             android:id="@+id/card_title"
@@ -42,9 +42,9 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="14dp"
             android:fontFamily="@font/notosans_regular"
-            android:letterSpacing="0.3"
+            android:letterSpacing="0.2"
             android:text="@string/receive_card_title"
-            android:textAllCaps="true"
+            android:textAllCaps="false"
             android:textColor="@color/bright_white"
             android:textSize="24dp"
             app:layout_constraintStart_toEndOf="@+id/card_logo"
@@ -62,7 +62,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/notosans_regular"
             android:textColor="@color/bright_white"
-            android:textSize="18dp"
+            android:textSize="17dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/card_barcode"
             app:layout_constraintTop_toBottomOf="@+id/card_logo"
