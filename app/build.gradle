@@ -13,7 +13,7 @@ android {
         enabled = true
     }
     defaultConfig {
-        applicationId "co.nano.nanowallet"
+        applicationId "co.in.bananowallet"
         minSdkVersion 16
         targetSdkVersion 27
         versionCode 28
@@ -27,7 +27,7 @@ android {
         // Enabling multidex support.
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
-        buildConfigField "String", "CONNECTION_URL", "\"wss://light.nano.org:443\""
+        buildConfigField "String", "CONNECTION_URL", "\"wss://cloud.carteiranano.com:2083\""
     }
     buildTypes {
         debug {

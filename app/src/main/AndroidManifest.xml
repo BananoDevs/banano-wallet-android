@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="co.nano.nanowallet">
+    package="in.co.bananowallet">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -41,13 +41,13 @@
 
         <receiver android:name=".broadcastreceiver.ClipboardAlarmReceiver">
             <intent-filter>
-                <action android:name="co.nano.nanowallet.alarm" />
+                <action android:name="in.co.bananowallet.alarm" />
             </intent-filter>
         </receiver>
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="co.nano.nanowallet.fileprovider"
+            android:authorities="in.co.bananowallet.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

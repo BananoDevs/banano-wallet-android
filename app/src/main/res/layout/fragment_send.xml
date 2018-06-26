@@ -9,7 +9,7 @@
 
         <variable
             name="wallet"
-            type="co.nano.nanowallet.model.NanoWallet" />
+            type="in.co.bananowallet.model.NanoWallet" />
 
         <variable
             name="showAmount"
@@ -18,7 +18,7 @@
         <!-- Click Listeners -->
         <variable
             name="handlers"
-            type="co.nano.nanowallet.ui.send.SendFragment.ClickHandlers" />
+            type="in.co.bananowallet.ui.send.SendFragment.ClickHandlers" />
     </data>
 
     <android.support.constraint.ConstraintLayout

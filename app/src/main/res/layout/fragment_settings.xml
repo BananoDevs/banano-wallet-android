@@ -17,7 +17,7 @@
 
         <variable
             name="handlers"
-            type="co.nano.nanowallet.ui.settings.SettingsDialogFragment.ClickHandlers" />
+            type="in.co.bananowallet.ui.settings.SettingsDialogFragment.ClickHandlers" />
     </data>
 
     <android.support.constraint.ConstraintLayout

@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Nano</string>
+    <string name="app_name">Banano</string>
 
-    <string name="version_display">Nano Wallet Company, LLC\nV%1$s (%2$d)</string>
+    <string name="version_display">Banano\nV%1$s (%2$d)</string>
 
     <!-- Intro Screens -->
-    <string name="intro_welcome_title">Welcome to Nano</string>
+    <string name="intro_welcome_title">Welcome to Banano</string>
     <string name="intro_welcome_new_wallet_cta">Create a new wallet</string>
     <string name="intro_welcome_have_wallet_cta">Enter existing Wallet Seed</string>
     <string name="intro_seed_steps">%d / 2</string>
@@ -12,19 +12,19 @@
     <string name="intro_seed_seed_label">Seed</string>
     <string name="intro_seed_seed_hint">(Seed Address)</string>
     <string name="intro_seed_confirm_cta">Confirm Seed</string>
-    <string name="intro_new_wallet_title">Your Nano Wallet Seed</string>
-    <string name="intro_new_wallet_message"><![CDATA[<font color=\"#000034\">Your Nano Wallet Seed is a unique code that enables you to access your wallet on the Nano network.<br><br>It is the only way for you to recover your wallet and access any Nano currency you may have.</font><br><br><font color=\"#ee4b66\">We do not have access to it and cannot recover your Wallet Seed or any funds in your wallet without your Wallet Seed.</font><br><br><font color=\"#000034\">You are solely responsible for recording your Wallet Seed in a safe and secure place and manner.</font> <font color=\"#ee4b66\">Never share your Wallet Seed with anyone.</font>]]></string>
+    <string name="intro_new_wallet_title">Your Banano Wallet Seed</string>
+    <string name="intro_new_wallet_message"><![CDATA[<font color=\"#000034\">Your Banano Wallet Seed is a unique code that enables you to access your wallet on the Banano network.<br><br>It is the only way for you to recover your wallet and access any Banano currency you may have.</font><br><br><font color=\"#ee4b66\">We do not have access to it and cannot recover your Wallet Seed or any funds in your wallet without your Wallet Seed.</font><br><br><font color=\"#000034\">You are solely responsible for recording your Wallet Seed in a safe and secure place and manner.</font> <font color=\"#ee4b66\">Never share your Wallet Seed with anyone.</font>]]></string>
     <string name="intro_new_wallet_confirm">I Understand, Continue</string>
     <string name="intro_new_wallet_seed_copied">Your Wallet Seed is pastable for 2 minutes. After, you can access it in Settings.\n\nPlease backup your Wallet Seed somewhere safe like 1Password, LastPass, or print it out and put it in a safe.</string>
     <string name="intro_new_wallet_seed_done">Okay</string>
     <string name="intro_new_wallet_seed_label">Tap to copy</string>
     <string name="intro_new_wallet_seed_copied_title">Wallet Seed Copied</string>
-    <string name="intro_new_wallet_continue_title">Welcome to Nano Wallet!</string>
+    <string name="intro_new_wallet_continue_title">Welcome to Banano Wallet!</string>
     <string name="intro_new_wallet_continue_message">Please confirm you have properly stored your Wallet Seed somewhere safe.</string>
     <string name="intro_new_wallet_continue_positive">I have backed up my Wallet Seed</string>
     <string name="intro_new_wallet_continue_negative">Back</string>
     <string name="intro_legal_title">Terms and Conditions</string>
-    <string name="intro_legal_description">Your use of this Nano Wallet mobile application is subject to your agreement to all terms and conditions of the End User License Agreement and Privacy Policy linked below (collectively, the "Terms and Conditions"). Please tap the links below and read all Terms and Conditions carefully. By checking the boxes below and tapping “Agree,” you acknowledge that you have read, understand and agree to all of the Terms and Conditions, which are binding legal agreements. If you do not understand or agree to any of the Terms and Conditions, you are not licensed or authorized to use this application and should delete it from your device.</string>
+    <string name="intro_legal_description">Your use of this Banano Wallet mobile application is subject to your agreement to all terms and conditions of the End User License Agreement and Privacy Policy linked below (collectively, the "Terms and Conditions"). Please tap the links below and read all Terms and Conditions carefully. By checking the boxes below and tapping “Agree,” you acknowledge that you have read, understand and agree to all of the Terms and Conditions, which are binding legal agreements. If you do not understand or agree to any of the Terms and Conditions, you are not licensed or authorized to use this application and should delete it from your device.</string>
     <string name="intro_legal_confirm">Agree</string>
     <string name="intro_legal_deny">Disagree</string>
     <string name="intro_legal_checkbox_eula_label">End User License Agreement</string>
@@ -38,7 +38,7 @@
 
     <!-- Analytics Opt-In -->
     <string name="analytics_optin_alert_title">Analytics Opt-In</string>
-    <string name="analytics_optin_alert_message">Nano (\'we\' or \'us\') would like to collect your device ID, as well as usage metrics and error and crash reports relating to your use of this Nano Wallet mobile application (the \'Wallet\'), in order to help us understand how users are using the Wallet and where errors might occur in the Wallet, and to use this data to help us maintain, develop and improve the Wallet and our products and services. \n\n No data about your name, contact information, funds, Nano tokens, Wallet Seed or private keys are ever collected through the Wallet. You can see exactly what types of data we collect through the Wallet by viewing our Privacy Policy.\n\nDo you consent to our collection and use of this data for these purposes? (Your consent is not a prerequisite for using the Wallet and, if you consent, you will have the right to withdraw your consent at any time as described in the Privacy Policy.)</string>
+    <string name="analytics_optin_alert_message">Banano (\'we\' or \'us\') would like to collect your device ID, as well as usage metrics and error and crash reports relating to your use of this Banano Wallet mobile application (the \'Wallet\'), in order to help us understand how users are using the Wallet and where errors might occur in the Wallet, and to use this data to help us maintain, develop and improve the Wallet and our products and services. \n\n No data about your name, contact information, funds, Banano tokens, Wallet Seed or private keys are ever collected through the Wallet. You can see exactly what types of data we collect through the Wallet by viewing our Privacy Policy.\n\nDo you consent to our collection and use of this data for these purposes? (Your consent is not a prerequisite for using the Wallet and, if you consent, you will have the right to withdraw your consent at any time as described in the Privacy Policy.)</string>
     <string name="analytics_optin_alert_confirm_cta">I Consent</string>
     <string name="analytics_optin_alert_cancel_cta">I Do Not Consent</string>
 
@@ -52,7 +52,7 @@
     <!-- Home Screen -->
     <string name="home_send_cta">Send</string>
     <string name="home_receive_cta">Receive</string>
-    <string name="home_explore_url">https://www.nanode.co/block/%s</string>
+    <string name="home_explore_url">https://creeper.banano.cc/explorer/block/%s</string>
     <string name="error_message">There was a problem connecting. Please try again.</string>
 
     <!-- Settings Screen -->
@@ -66,7 +66,7 @@
     <string name="settings_seed_alert_confirm_cta">Okay</string>
     <string name="settings_seed_alert_cancel_cta">Cancel</string>
     <string name="settings_logout_alert_title">Are you sure you want to log out?</string>
-    <string name="settings_logout_alert_message">Logging out will remove your seed, keys, and all of your Nano-related data from this device.</string>
+    <string name="settings_logout_alert_message">Logging out will remove your seed, keys, and all of your Banano-related data from this device.</string>
     <string name="settings_logout_alert_confirm_cta">Okay</string>
     <string name="settings_logout_alert_cancel_cta">Cancel</string>
     <string name="settings_fingerprint_title">Copy Wallet Seed</string>
@@ -76,14 +76,14 @@
 
     <!-- Receive Screen -->
     <string name="receive_title">Receive</string>
-    <string name="receive_instructions">Scan the QR code\nbelow to receive NANO</string>
+    <string name="receive_instructions">Scan the QR code\nbelow to receive BANANO</string>
     <string name="receive_copy_cta">Copy Address</string>
-    <string name="receive_address_label">Nano Address</string>
-    <string name="receive_copy_message"><![CDATA[<font color=\"#ffffff\">Your Nano Address has been copied.<br>Share it with a friend to receive Nano!</font>]]></string>
+    <string name="receive_address_label">Banano Address</string>
+    <string name="receive_copy_message"><![CDATA[<font color=\"#ffffff\">Your Banano Address has been copied.<br>Share it with a friend to receive Banano!</font>]]></string>
     <string name="receive_copy_done">Done</string>
     <string name="receive_share_title">Share via…</string>
-    <string name="receive_card_label">$nano\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020nano.org</string>
-    <string name="receive_card_title">Nano</string>
+    <string name="receive_card_label">$nano\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020banano.co.in</string>
+    <string name="receive_card_title">Banano</string>
     <string name="receive_qrcode_description">QR Code</string>
 
     <!-- Send Screen -->
@@ -107,20 +107,20 @@
     <string name="send_nano_hint">0</string>
     <string name="send_localcurrency_hint">0.00</string>
     <string name="send_amount_too_large_alert_title">Amount Too Large</string>
-    <string name="send_amount_too_large_alert_message">The amount you entered was larger than your Nano balance.\n\nWe\'ve filled the form with your full balance for sending.</string>
+    <string name="send_amount_too_large_alert_message">The amount you entered was larger than your Banano balance.\n\nWe\'ve filled the form with your full balance for sending.</string>
     <string name="send_amount_too_large_alert_cta">Okay</string>
     <string name="send_error_alert_title">Something Went Wrong</string>
     <string name="send_error_alert_message">We have detected an issue, and are working to resolve it. Please try again in a few minutes.</string>
     <string name="send_confirm_address_cta">Confirm Address</string>
-    <string name="send_fingerprint_title">Send Nano</string>
-    <string name="send_pin_description">Send %s Nano?</string>
-    <string name="send_fingerprint_description">Confirm fingerprint to send %s Nano</string>
+    <string name="send_fingerprint_title">Send Banano</string>
+    <string name="send_pin_description">Send %s Banano?</string>
+    <string name="send_fingerprint_description">Confirm fingerprint to send %s Banano</string>
     <string name="send_fingerprint_hint">Touch sensor</string>
     <string name="send_fingerprint_success">Fingerprint recognized</string>
 
     <!-- Scan Screen -->
-    <string name="scan_instruction_label">Scan a Nano or RaiBlocks\nwallet seed QR code to\nimport an existing wallet</string>
-    <string name="scan_send_instruction_label">Scan a Nano or RaiBlocks\naddress QR code</string>
+    <string name="scan_instruction_label">Scan a Banano wallet seed\nQR code to\nimport an existing wallet</string>
+    <string name="scan_send_instruction_label">Scan a Banano \naddress QR code</string>
     <string name="scan_seed_error">Please scan a valid seed.</string>
 
     <!-- Webview Screen -->
@@ -128,12 +128,12 @@
 
     <!-- Seed Update Alert -->
     <string name="seed_update_alert_title">Critical: Update Your Wallet Seed</string>
-    <string name="seed_update_alert_message">In version 1.0, we discovered a critical bug in the way Wallet Seeds were generated. This requires you to generate a brand new wallet seed and transfer your Nano to a new wallet if your wallet was created via Nano Wallet for Android.</string>
+    <string name="seed_update_alert_message">In version 1.0, we discovered a critical bug in the way Wallet Seeds were generated. This requires you to generate a brand new wallet seed and transfer your Banano to a new wallet if your wallet was created via Banano Wallet for Android.</string>
     <string name="seed_update_alert_cancel_cta">My seed was created via another wallet</string>
     <string name="seed_update_alert_confirm_cta">Generate new wallet seed</string>
 
     <string name="seed_update_address_alert_title">Copy your new Wallet Seed and transfer funds</string>
-    <string name="seed_update_address_alert_message">In the future, you will use this newly generated Wallet Seed to access your Nano. Write it down and save it somewhere secure. Note: screenshots do not work in Nano Wallet\n\nYour new Wallet Seed is\n%1$s\n\nYour new Wallet Address is\n%2$s</string>
+    <string name="seed_update_address_alert_message">In the future, you will use this newly generated Wallet Seed to access your Banano. Write it down and save it somewhere secure. Note: screenshots do not work in banano Wallet\n\nYour new Wallet Seed is\n%1$s\n\nYour new Wallet Address is\n%2$s</string>
     <string name="seed_update_address_alert_neutral_cta">I have copied my wallet seed</string>
     <string name="seed_update_address_alert_confirm_cta">Transfer balance to new wallet</string>
 
@@ -143,7 +143,7 @@
     <string name="seed_update_verify_cancel">Cancel</string>
 
     <string name="seed_update_send_completed_alert_title">Log into your new wallet</string>
-    <string name="seed_update_send_completed_alert_message">Log out of this wallet and log in to Nano Wallet for Android again with your new seed you recently copied.</string>
+    <string name="seed_update_send_completed_alert_message">Log out of this wallet and log in to Banano Wallet for Android again with your new seed you recently copied.</string>
     <string name="seed_update_send_completed_alert_confirm">Okay</string>
 
     <string name="seed_reminder_alert_title">New Wallet Seed Reminder</string>

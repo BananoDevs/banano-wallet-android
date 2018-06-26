@@ -7,10 +7,10 @@
         <!-- Data -->
         <variable
             name="wallet"
-            type="co.nano.nanowallet.model.NanoWallet" />
+            type="in.co.bananowallet.model.NanoWallet" />
         <variable
             name="localCurrency"
-            type="co.nano.nanowallet.model.AvailableCurrency" />
+            type="in.co.bananowallet.model.AvailableCurrency" />
     </data>
 
     <android.support.constraint.ConstraintLayout

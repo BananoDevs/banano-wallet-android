@@ -7,7 +7,7 @@
         <!-- Click Listeners -->
         <variable
             name="handlers"
-            type="co.nano.nanowallet.ui.intro.IntroNewWalletFragment.ClickHandlers" />
+            type="in.co.bananowallet.ui.intro.IntroNewWalletFragment.ClickHandlers" />
         <!-- Data -->
         <variable
             name="seed"
@@ -92,6 +92,7 @@
                 android:layout_marginBottom="20dp"
                 android:onClick="@{handlers::onClickConfirm}"
                 android:text="@string/intro_new_wallet_confirm"
+                android:textColor="@color/bright_white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/intro_new_wallet_guideline_vert"
                 app:layout_constraintStart_toStartOf="@+id/intro_new_wallet_guideline_vert"
