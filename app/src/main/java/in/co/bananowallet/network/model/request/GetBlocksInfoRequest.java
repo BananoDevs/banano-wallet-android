@@ -1,9 +1,9 @@
-package co.nano.nanowallet.network.model.request;
+package in.co.bananowallet.network.model.request;
 
 import com.google.gson.annotations.SerializedName;
 
-import co.nano.nanowallet.network.model.Actions;
-import co.nano.nanowallet.network.model.BaseRequest;
+import in.co.bananowallet.network.model.Actions;
+import in.co.bananowallet.network.model.BaseRequest;
 
 /**
  * Retrieve hash history

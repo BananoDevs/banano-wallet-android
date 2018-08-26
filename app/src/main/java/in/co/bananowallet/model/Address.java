@@ -15,7 +15,7 @@ import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
 
-import co.nano.nanowallet.NanoUtil;
+import in.co.bananowallet.NanoUtil;
 
 /**
  * Address class
@@ -25,7 +25,7 @@ public class Address implements Serializable {
     private String value;
     private String amount;
 
-    public static final BigDecimal RAW_PER_NANO = new BigDecimal("1000000000000000000000000000000");
+    public static final BigDecimal RAW_PER_NANO = new BigDecimal("100000000000000000000000000000");
 
     public Address() {
     }

@@ -1,8 +1,8 @@
-package co.nano.nanowallet.network.model.response;
+package in.co.bananowallet.network.model.response;
 
 import com.google.gson.annotations.SerializedName;
 
-import co.nano.nanowallet.network.model.BaseResponse;
+import in.co.bananowallet.network.model.BaseResponse;
 
 public class BlockInfoItem extends BaseResponse {
     @SerializedName("block_account")

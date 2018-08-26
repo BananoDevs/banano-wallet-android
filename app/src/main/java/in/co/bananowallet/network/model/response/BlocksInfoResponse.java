@@ -1,10 +1,10 @@
-package co.nano.nanowallet.network.model.response;
+package in.co.bananowallet.network.model.response;
 
 import com.google.gson.annotations.SerializedName;
 
 import java.util.HashMap;
 
-import co.nano.nanowallet.network.model.BaseResponse;
+import in.co.bananowallet.network.model.BaseResponse;
 
 public class BlocksInfoResponse extends BaseResponse {
     @SerializedName("blocks")
