@@ -16,8 +16,8 @@ android {
         applicationId "co.in.bananowallet"
         minSdkVersion 16
         targetSdkVersion 27
-        versionCode 31
-        versionName "1.1.0"
+        versionCode 32
+        versionName "1.1.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
@@ -27,7 +27,7 @@ android {
         // Enabling multidex support.
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
-        buildConfigField "String", "CONNECTION_URL", "\"wss://cloud.carteiranano.com:2083\""
+        buildConfigField "String", "CONNECTION_URL", "\"wss://kaba.banano.cc:443\""
     }
     buildTypes {
         debug {
